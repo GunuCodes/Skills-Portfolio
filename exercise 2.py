@@ -72,7 +72,7 @@ subheader = Label(root, text="Note: Alexa can only tell jokes as of this version
 subheader.pack(pady=5)
 
 #Loads the jokes from the file
-jokes = read_jokefile(r"C:\\Users\\carlo\\Documents\\the\\Advanced Programming\\assessment\\randomJokes.txt")
+jokes = read_jokefile(r"assets\\randomJokes.txt")
 
 #Input entry setup
 input_entry = Entry(root, width=40)
