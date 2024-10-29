@@ -50,7 +50,7 @@ def save_students_to_file(filename, students):
             file.write(f"{student.number},{student.name},{student.coursework_mark // 3},{student.coursework_mark // 3},{student.coursework_mark // 3},{student.exam_mark}\n")
 
 #Loads the file path that is used for student data
-file_path = (r"C:\\Users\\carlo\\Documents\\the\\Advanced Programming\\assessment\\studentMarks.txt")
+file_path = (r"assets\\studentMarks.txt")
 students = load_students_from_file(file_path)
 
 #Creates a custom gui input dialog
